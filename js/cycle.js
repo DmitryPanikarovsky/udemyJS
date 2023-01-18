@@ -65,47 +65,47 @@
 // а к элементам обращаемся все так же;
 // arr[0], arr[1];
 
-function firstTask() {
-    const arr = [4, 6, 9, 15, 57, 68, 1990];
-    const result = [];
+// function firstTask() {
+//     const arr = [4, 6, 9, 15, 57, 68, 1990];
+//     const result = [];
 
-    for (let i = 0; i < arr.length; i++) {
-        result[i] = arr[i];
-    }
-    console.log(result);
-    return result;
-}
-firstTask();
+//     for (let i = 0; i < arr.length; i++) {
+//         result[i] = arr[i];
+//     }
+//     console.log(result);
+//     return result;
+// }
+// firstTask();
 
-// Измените данный массив так, чтобы все числа были увеличены в 2 раза, а если попадается строка строка - то к ней было добавлено " - done".
-// Для определения типа данных используйте typeof();
+// // Измените данный массив так, чтобы все числа были увеличены в 2 раза, а если попадается строка строка - то к ней было добавлено " - done".
+// // Для определения типа данных используйте typeof();
 
-function secondTask() {
-    const data = [5, 10, 'Shopping', 20, 'Homework'];
+// function secondTask() {
+//     const data = [5, 10, 'Shopping', 20, 'Homework'];
 
-    for (let i = 0; i < data.length; i++) {
-        if (typeof(data[i]) === 'number') {
-            data[i] = Math.pow(data[i], 2);
-        } else if (typeof(data[i]) === 'string') {
-            data[i] = `${data[i]} - done`;
-        }
-    }
-    console.log(data);
-    return data;
-}
-secondTask();
+//     for (let i = 0; i < data.length; i++) {
+//         if (typeof(data[i]) === 'number') {
+//             data[i] = Math.pow(data[i], 2);
+//         } else if (typeof(data[i]) === 'string') {
+//             data[i] = `${data[i]} - done`;
+//         }
+//     }
+//     console.log(data);
+//     return data;
+// }
+// secondTask();
 
-// Разверните массив data наоборот при помощи цикла и запишите данные в массив result.
+// // Разверните массив data наоборот при помощи цикла и запишите данные в массив result.
 
-function thirdTask() {
-    const data = [5, 10, 'Shopping', 20, 'Homework'];
-    const result = [];
+// function thirdTask() {
+//     const data = [5, 10, 'Shopping', 20, 'Homework'];
+//     const result = [];
 
-    for (let i = 0; i < data.length; i++) {
-        result[i] = data[(data.length - 1) - i];
-    }
+//     for (let i = 0; i < data.length; i++) {
+//         result[i] = data[(data.length - 1) - i];
+//     }
 
-    console.log(result);
-    return result;
-}
-thirdTask();
+//     console.log(result);
+//     return result;
+// }
+// thirdTask();
